@@ -1,0 +1,271 @@
+{
+  "itemId" : "_WKpSwPZPEe2hUdY5Mq1ZWA",
+  "contextList" : [ {
+    "contextName" : "Dev",
+    "repoId" : "_3BsQsHhUEeykCPec-OTlFw",
+    "parameterList" : [ {
+      "id" : "_uRFD9_O1Ee2aT-GASnopIg",
+      "name" : "AttachControlFileLocation"
+    }, {
+      "id" : "_uRFD-PO1Ee2aT-GASnopIg",
+      "name" : "AttachControlFileName"
+    }, {
+      "id" : "_uRFD8fO1Ee2aT-GASnopIg",
+      "name" : "con_CSV_line_number"
+    }, {
+      "id" : "_uRFD6_O1Ee2aT-GASnopIg",
+      "name" : "con_error_component"
+    }, {
+      "id" : "_uRFD7PO1Ee2aT-GASnopIg",
+      "name" : "con_error_message"
+    }, {
+      "id" : "_uRFD7fO1Ee2aT-GASnopIg",
+      "name" : "con_limit_count"
+    }, {
+      "id" : "_uRFD_PO1Ee2aT-GASnopIg",
+      "name" : "con_macseqnum"
+    }, {
+      "id" : "_uRFEFfO1Ee2aT-GASnopIg",
+      "name" : "con_macseqnum2"
+    }, {
+      "id" : "_uRFEEPO1Ee2aT-GASnopIg",
+      "name" : "con_row_AI"
+    }, {
+      "id" : "_uRFEA_O1Ee2aT-GASnopIg",
+      "name" : "con_row_aigintrx"
+    }, {
+      "id" : "_uRFECPO1Ee2aT-GASnopIg",
+      "name" : "con_row_dup"
+    }, {
+      "id" : "_uRFECfO1Ee2aT-GASnopIg",
+      "name" : "con_row_gross"
+    }, {
+      "id" : "_uRFECvO1Ee2aT-GASnopIg",
+      "name" : "con_row_intl"
+    }, {
+      "id" : "_uRFEC_O1Ee2aT-GASnopIg",
+      "name" : "con_row_notype"
+    }, {
+      "id" : "_uRFD6vO1Ee2aT-GASnopIg",
+      "name" : "con_row_number_riappldb"
+    }, {
+      "id" : "_uRFD6fO1Ee2aT-GASnopIg",
+      "name" : "con_row_number_stg"
+    }, {
+      "id" : "_uRFEBfO1Ee2aT-GASnopIg",
+      "name" : "con_row_ridateint"
+    }, {
+      "id" : "_uRFEB_O1Ee2aT-GASnopIg",
+      "name" : "con_row_risattrint"
+    }, {
+      "id" : "_uRFEBvO1Ee2aT-GASnopIg",
+      "name" : "con_row_risrcintrf"
+    }, {
+      "id" : "_uRFEBPO1Ee2aT-GASnopIg",
+      "name" : "con_row_ritrncalc"
+    }, {
+      "id" : "_uRFED_O1Ee2aT-GASnopIg",
+      "name" : "con_row_section_ref"
+    }, {
+      "id" : "_uRFEAvO1Ee2aT-GASnopIg",
+      "name" : "con_row_tty"
+    }, {
+      "id" : "_uRFEDfO1Ee2aT-GASnopIg",
+      "name" : "con_row_tty13"
+    }, {
+      "id" : "_uRFEEvO1Ee2aT-GASnopIg",
+      "name" : "con_row_tty13NICO"
+    }, {
+      "id" : "_uRFEDvO1Ee2aT-GASnopIg",
+      "name" : "con_row_tty15"
+    }, {
+      "id" : "_uRFEE_O1Ee2aT-GASnopIg",
+      "name" : "con_row_tty15NICO"
+    }, {
+      "id" : "_uRFEDPO1Ee2aT-GASnopIg",
+      "name" : "con_row_tty6"
+    }, {
+      "id" : "_uRFEEfO1Ee2aT-GASnopIg",
+      "name" : "con_row_tty6NICO"
+    }, {
+      "id" : "_uRFEAfO1Ee2aT-GASnopIg",
+      "name" : "con_row_uniqe_ced"
+    }, {
+      "id" : "_uRFD8vO1Ee2aT-GASnopIg",
+      "name" : "con_Table_lines_number"
+    }, {
+      "id" : "_uRFD6PO1Ee2aT-GASnopIg",
+      "name" : "con_table_name"
+    }, {
+      "id" : "_uRFD-_O1Ee2aT-GASnopIg",
+      "name" : "con_timestamp"
+    }, {
+      "id" : "_uRFD-vO1Ee2aT-GASnopIg",
+      "name" : "instance"
+    }, {
+      "id" : "_uRFEFvO1Ee2aT-GASnopIg",
+      "name" : "instance2"
+    }, {
+      "id" : "_uRFD9fO1Ee2aT-GASnopIg",
+      "name" : "loadingLocation"
+    }, {
+      "id" : "_uRFD9vO1Ee2aT-GASnopIg",
+      "name" : "loadingName"
+    }, {
+      "id" : "_uRFD__O1Ee2aT-GASnopIg",
+      "name" : "MATCH_IND"
+    }, {
+      "id" : "_uRFD_vO1Ee2aT-GASnopIg",
+      "name" : "outputLocation"
+    }, {
+      "id" : "_uRFD7vO1Ee2aT-GASnopIg",
+      "name" : "Talend_Output_Files"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_3BsQsHhUEeykCPec-OTlFw",
+    "parameterList" : [ {
+      "id" : "_uRFELvO1Ee2aT-GASnopIg",
+      "name" : "AttachControlFileLocation"
+    }, {
+      "id" : "_uRFEL_O1Ee2aT-GASnopIg",
+      "name" : "AttachControlFileName"
+    }, {
+      "id" : "_uRFEKPO1Ee2aT-GASnopIg",
+      "name" : "con_CSV_line_number"
+    }, {
+      "id" : "_uRFEIvO1Ee2aT-GASnopIg",
+      "name" : "con_error_component"
+    }, {
+      "id" : "_uRFEI_O1Ee2aT-GASnopIg",
+      "name" : "con_error_message"
+    }, {
+      "id" : "_uRFEJPO1Ee2aT-GASnopIg",
+      "name" : "con_limit_count"
+    }, {
+      "id" : "_uRFEM_O1Ee2aT-GASnopIg",
+      "name" : "con_macseqnum"
+    }, {
+      "id" : "_uRFETPO1Ee2aT-GASnopIg",
+      "name" : "con_macseqnum2"
+    }, {
+      "id" : "_uRFER_O1Ee2aT-GASnopIg",
+      "name" : "con_row_AI"
+    }, {
+      "id" : "_uRFEOvO1Ee2aT-GASnopIg",
+      "name" : "con_row_aigintrx"
+    }, {
+      "id" : "_uRFEP_O1Ee2aT-GASnopIg",
+      "name" : "con_row_dup"
+    }, {
+      "id" : "_uRFEQPO1Ee2aT-GASnopIg",
+      "name" : "con_row_gross"
+    }, {
+      "id" : "_uRFEQfO1Ee2aT-GASnopIg",
+      "name" : "con_row_intl"
+    }, {
+      "id" : "_uRFEQvO1Ee2aT-GASnopIg",
+      "name" : "con_row_notype"
+    }, {
+      "id" : "_uRFEIfO1Ee2aT-GASnopIg",
+      "name" : "con_row_number_riappldb"
+    }, {
+      "id" : "_uRFEIPO1Ee2aT-GASnopIg",
+      "name" : "con_row_number_stg"
+    }, {
+      "id" : "_uRFEPPO1Ee2aT-GASnopIg",
+      "name" : "con_row_ridateint"
+    }, {
+      "id" : "_uRFEPvO1Ee2aT-GASnopIg",
+      "name" : "con_row_risattrint"
+    }, {
+      "id" : "_uRFEPfO1Ee2aT-GASnopIg",
+      "name" : "con_row_risrcintrf"
+    }, {
+      "id" : "_uRFEO_O1Ee2aT-GASnopIg",
+      "name" : "con_row_ritrncalc"
+    }, {
+      "id" : "_uRFERvO1Ee2aT-GASnopIg",
+      "name" : "con_row_section_ref"
+    }, {
+      "id" : "_uRFEOfO1Ee2aT-GASnopIg",
+      "name" : "con_row_tty"
+    }, {
+      "id" : "_uRFERPO1Ee2aT-GASnopIg",
+      "name" : "con_row_tty13"
+    }, {
+      "id" : "_uRFESfO1Ee2aT-GASnopIg",
+      "name" : "con_row_tty13NICO"
+    }, {
+      "id" : "_uRFERfO1Ee2aT-GASnopIg",
+      "name" : "con_row_tty15"
+    }, {
+      "id" : "_uRFESvO1Ee2aT-GASnopIg",
+      "name" : "con_row_tty15NICO"
+    }, {
+      "id" : "_uRFEQ_O1Ee2aT-GASnopIg",
+      "name" : "con_row_tty6"
+    }, {
+      "id" : "_uRFESPO1Ee2aT-GASnopIg",
+      "name" : "con_row_tty6NICO"
+    }, {
+      "id" : "_uRFEOPO1Ee2aT-GASnopIg",
+      "name" : "con_row_uniqe_ced"
+    }, {
+      "id" : "_uRFEKfO1Ee2aT-GASnopIg",
+      "name" : "con_Table_lines_number"
+    }, {
+      "id" : "_uRFEH_O1Ee2aT-GASnopIg",
+      "name" : "con_table_name"
+    }, {
+      "id" : "_uRFEMvO1Ee2aT-GASnopIg",
+      "name" : "con_timestamp"
+    }, {
+      "id" : "_uRFEMfO1Ee2aT-GASnopIg",
+      "name" : "instance"
+    }, {
+      "id" : "_uRFETfO1Ee2aT-GASnopIg",
+      "name" : "instance2"
+    }, {
+      "id" : "_uRFELPO1Ee2aT-GASnopIg",
+      "name" : "loadingLocation"
+    }, {
+      "id" : "_uRFELfO1Ee2aT-GASnopIg",
+      "name" : "loadingName"
+    }, {
+      "id" : "_uRFENvO1Ee2aT-GASnopIg",
+      "name" : "MATCH_IND"
+    }, {
+      "id" : "_uRFENfO1Ee2aT-GASnopIg",
+      "name" : "outputLocation"
+    }, {
+      "id" : "_uRFEJfO1Ee2aT-GASnopIg",
+      "name" : "Talend_Output_Files"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_4IOSEPNZEeuX9OFvf4_9fA",
+    "parameterList" : [ {
+      "id" : "_uTh69vO1Ee2aT-GASnopIg",
+      "name" : "ri_aig_ri_SCHEMA"
+    }, {
+      "id" : "_uTh68_O1Ee2aT-GASnopIg",
+      "name" : "ri_aig_ri_SERVER"
+    }, {
+      "id" : "_uTh69PO1Ee2aT-GASnopIg",
+      "name" : "ri_aig_ri_PORT"
+    }, {
+      "id" : "_uTh68vO1Ee2aT-GASnopIg",
+      "name" : "ri_aig_ri_PASSWORD"
+    }, {
+      "id" : "_uTh68fO1Ee2aT-GASnopIg",
+      "name" : "ri_aig_ri_LOGIN"
+    }, {
+      "id" : "_uTh69fO1Ee2aT-GASnopIg",
+      "name" : "ri_aig_ri_DB"
+    }, {
+      "id" : "_uTh69_O1Ee2aT-GASnopIg",
+      "name" : "ri_aig_ri_ADD_PARAM"
+    } ]
+  } ]
+}

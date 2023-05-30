@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DelimitedFileConnection ContextId="_9gOekCVLEeyjnIsy1REK7w" ContextMode="true" CsvOption="true" Encoding="context.pre_TAGDOM_data_Encoding" EscapeChar="&quot;\&quot;&quot;" EscapeType="CSV" FieldSeparatorType="Custom UTF8" FieldSeparatorValue="context.pre_TAGDOM_data_FieldSeparator" FilePath="context.pre_TAGDOM_data_File" FirstLineCaption="true" FooterValue="0" Format="WINDOWS" HeaderValue="context.pre_TAGDOM_data_Header" LimitValue="" RowSeparatorType="Custom String" RowSeparatorValue="context.pre_TAGDOM_data_RowSeparator" Server="Localhost 127.0.0.1" TextEnclosure="&quot;\&quot;&quot;" UseHeader="true" contextName="Default" dataPackage="_dtwXMRkxEeyDmv98YWc4UQ" id="_dtt68BkxEeyDmv98YWc4UQ" name="pre_TAGDOM_data" xmi:id="_dtwXMBkxEeyDmv98YWc4UQ"/>
+  <orgomg.cwm.resource.record:RecordFile dataManager="_dtwXMBkxEeyDmv98YWc4UQ" name="default" xmi:id="_dtwXMRkxEeyDmv98YWc4UQ">
+    <ownedElement id="_T62SsBkxEeyDmv98YWc4UQ" label="metadata" xmi:id="_dtwXMhkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataTable">
+      <feature label="SRM_OUTGOING_TRANSACTION_ID" length="32" name="SRM_OUTGOING_TRANSACTION_ID" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXMxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXNBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="ACCOUNTING_DT" length="-1" name="ACCOUNTING_DT" pattern="&quot;yyyy-MM-dd&quot;" sourceType="DATE" talendType="id_Integer" xmi:id="_dtwXNRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXNhkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="POLICY_NO" length="10" name="POLICY_NO" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXNxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXOBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="POLICY_EFF_DT" length="-1" name="POLICY_EFF_DT" pattern="&quot;yyyy-MM-dd&quot;" sourceType="DATE" talendType="id_Integer" xmi:id="_dtwXORkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXOhkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="POLICY_EXP_DT" length="-1" name="POLICY_EXP_DT" pattern="&quot;yyyy-MM-dd&quot;" sourceType="DATE" talendType="id_Integer" xmi:id="_dtwXOxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXPBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="TRAN_EFF_DT" length="-1" name="TRAN_EFF_DT" pattern="&quot;yyyy-MM-dd&quot;" sourceType="DATE" talendType="id_Integer" xmi:id="_dtwXPRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXPhkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="TRAN_EXP_DT" length="-1" name="TRAN_EXP_DT" pattern="&quot;yyyy-MM-dd&quot;" sourceType="DATE" talendType="id_Integer" xmi:id="_dtwXPxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXQBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="CLAIM_NO" length="14" name="CLAIM_NO" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXQRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXQhkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="CLAIM_SYMBOL_NO" length="1" name="CLAIM_SYMBOL_NO" sourceType="CHAR" talendType="id_String" xmi:id="_dtwXQxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXRBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="CLAIM_DS" length="60" name="CLAIM_DS" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXRRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXRhkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="REINSURANCE_LAYER_NO" length="3" name="REINSURANCE_LAYER_NO" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXRxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXSBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="DIVISION_NO" length="4" name="DIVISION_NO" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXSRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXShkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="SECTION_CD" length="3" name="SECTION_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXSxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXTBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="PROFIT_UNIT_CD" length="4" name="PROFIT_UNIT_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXTRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXThkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="MAJOR_CLASS_CD" length="4" name="MAJOR_CLASS_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXTxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXUBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="LOSS_DT" length="10" name="LOSS_DT" pattern="&quot;yyyy-MM-dd&quot;" sourceType="DATE" talendType="id_Integer" xmi:id="_dtwXURkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXUhkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="WORKING_BRANCH_CD" length="4" name="WORKING_BRANCH_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXUxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXVBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="PRIMARY_INSURED_NM" length="60" name="PRIMARY_INSURED_NM" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXVRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXVhkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="KEY_CASE_ID" length="9" name="KEY_CASE_ID" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXVxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXWBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="SCI_TS" length="26" name="SCI_TS" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXWRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXWhkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="LOSS_REPORT_DT" length="10" name="LOSS_REPORT_DT" pattern="&quot;yyyy-MM-dd&quot;" sourceType="DATE" talendType="id_Integer" xmi:id="_dtwXWxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXXBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="FACULTATIVE_CERT_NO" length="20" name="FACULTATIVE_CERT_NO" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXXRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXXhkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="MANAGER_CD" length="2" name="MANAGER_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXXxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXYBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="MAJOR_LINE_CD" length="2" name="MAJOR_LINE_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXYRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXYhkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="MINOR_LINE_CD" length="2" name="MINOR_LINE_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXYxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXZBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="CLASS_PERIL_CD" length="3" name="CLASS_PERIL_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXZRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXZhkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="PERIL_CD" length="3" name="PERIL_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXZxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXaBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="CLAIM_OFFICE_CD" length="3" name="CLAIM_OFFICE_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXaRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXahkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="CLAIMS_MADE_DT" length="10" name="CLAIMS_MADE_DT" pattern="&quot;yyyy-MM-dd&quot;" sourceType="DATE" talendType="id_Integer" xmi:id="_dtwXaxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXbBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="CLAIMANT_NM" length="30" name="CLAIMANT_NM" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXbRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXbhkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="CLAIM_STATUS_CD" length="1" name="CLAIM_STATUS_CD" sourceType="CHAR" talendType="id_String" xmi:id="_dtwXbxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXcBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="ANATOMY_CD" length="3" name="ANATOMY_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXcRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXchkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="MARKET_SEGMENT_CD" length="5" name="MARKET_SEGMENT_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXcxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXdBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="TREATY_PANEL_CD" length="20" name="TREATY_PANEL_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXdRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXdhkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="TREATY_NO" length="6" name="TREATY_NO" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXdxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXeBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="PRODUCING_OFFICE_CD" length="3" name="PRODUCING_OFFICE_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXeRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXehkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="ISSUING_BRANCH_CD" length="3" name="ISSUING_BRANCH_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXexkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXfBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="MULTINATIONAL_REQUEST_NO" length="16" name="MULTINATIONAL_REQUEST_NO" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXfRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXfhkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="LPT_TAG" length="2" name="LPT_TAG" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXfxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXgBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="CLAIM_HANDLING_OFFICE_CD" length="4" name="CLAIM_HANDLING_OFFICE_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXgRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXghkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="LOCAL_CORPORATE_IN" length="1" name="LOCAL_CORPORATE_IN" sourceType="CHAR" talendType="id_String" xmi:id="_dtwXgxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXhBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="MINOR_CD" length="2" name="MINOR_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXhRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXhhkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="TRAN_AM" length="40" name="TRAN_AM" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXhxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXiBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="SYSTEM_ID" length="4" name="SYSTEM_ID" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXiRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXihkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="CREDITED_BRANCH_CD" length="3" name="CREDITED_BRANCH_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXixkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXjBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="GDW_RDM_GLOBAL_CURRENCY_CD" length="3" name="GDW_RDM_GLOBAL_CURRENCY_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXjRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXjhkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="LOSS_CATASTROPHE_CD" length="5" name="LOSS_CATASTROPHE_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXjxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXkBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="INJURY_CD" length="3" name="INJURY_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXkRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXkhkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="GDW_RDM_GLOBAL_RISK_COUNTRY_CD" length="3" name="GDW_RDM_GLOBAL_RISK_COUNTRY_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXkxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXlBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="GDW_RDM_GLOBAL_TRANSACTION_TYPE_CD" length="10" name="GDW_RDM_GLOBAL_TRANSACTION_TYPE_CD" sourceType="INT" talendType="id_Integer" xmi:id="_dtwXlRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXlhkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="GDW_RDM_GLOBAL_TRANSACTION_SUB_TYPE_CD" length="10" name="GDW_RDM_GLOBAL_TRANSACTION_SUB_TYPE_CD" sourceType="INT" talendType="id_Integer" xmi:id="_dtwXlxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXmBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="GDW_RDM_GLOBAL_FINANCIAL_TYPE_CD" length="10" name="GDW_RDM_GLOBAL_FINANCIAL_TYPE_CD" sourceType="INT" talendType="id_Integer" xmi:id="_dtwXmRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXmhkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="GDW_RDM_GLOBAL_FINANCIAL_SUB_TYPE_CD" length="10" name="GDW_RDM_GLOBAL_FINANCIAL_SUB_TYPE_CD" sourceType="INT" talendType="id_Integer" xmi:id="_dtwXmxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXnBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="GDW_RDM_GLOBAL_TRANSACTION_INDICATOR_CD" length="1" name="GDW_RDM_GLOBAL_TRANSACTION_INDICATOR_CD" sourceType="CHAR" talendType="id_String" xmi:id="_dtwXnRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXnhkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="GDW_RDM_GLOBAL_GROSS_TYPE_CD" length="1" name="GDW_RDM_GLOBAL_GROSS_TYPE_CD" sourceType="CHAR" talendType="id_String" xmi:id="_dtwXnxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXoBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="GDW_RDM_GLOBAL_REINSURANCE_TYPE_CD" length="3" name="GDW_RDM_GLOBAL_REINSURANCE_TYPE_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXoRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXohkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="GDW_RDM_ANNUAL_STATEMENT_LINE_CD" length="3" name="GDW_RDM_ANNUAL_STATEMENT_LINE_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXoxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXpBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="GDW_AIG_LOCATION_CD" length="5" name="GDW_AIG_LOCATION_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXpRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXphkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="REINSURANCE_COMPANY_CD" length="6" name="REINSURANCE_COMPANY_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXpxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXqBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="BROKER_CD" length="6" name="BROKER_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXqRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXqhkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="GDW_LINE_OF_BUSINESS_CD" length="20" name="GDW_LINE_OF_BUSINESS_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXqxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXrBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="GDW_RDM_SAP_COMPANY_CD" length="10" name="GDW_RDM_SAP_COMPANY_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXrRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXrhkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="GDW_RDM_SAP_RISK_LOCATION_CD" length="6" name="GDW_RDM_SAP_RISK_LOCATION_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXrxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXsBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="GDW_PROFIT_CENTER_CD" length="5" name="GDW_PROFIT_CENTER_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXsRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXshkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="REINSURANCE_COMPANY_BRANCH" length="6" name="REINSURANCE_COMPANY_BRANCH" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXsxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXtBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="BROKER_BRANCH_CD" length="3" name="BROKER_BRANCH_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXtRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXthkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="ACCIDENT_YEAR_NO" length="4" name="ACCIDENT_YEAR_NO" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXtxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXuBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="ISSUING_LEGAL_ENTITY_CD" length="6" name="ISSUING_LEGAL_ENTITY_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXuRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXuhkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="GDW_RDM_ISSUING_WORLDWIDE_COMPANY_CD" length="6" name="GDW_RDM_ISSUING_WORLDWIDE_COMPANY_CD" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXuxkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXvBkxEeyDmv98YWc4UQ"/>
+      </feature>
+      <feature label="CONTRACT_ID" length="6" name="CONTRACT_ID" sourceType="VARCHAR" talendType="id_String" xmi:id="_dtwXvRkxEeyDmv98YWc4UQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_dtwXvhkxEeyDmv98YWc4UQ"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_4462fd8a-30e1-4e32-90e9-fcbbc98dafa1"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>KTyHZImx1AcdwqDQMfsNnbrvBy2BflvCOJV7hO6kOQe5Li+6TJe9GOOBAhOMFWsnMgTafSjzpWm5&#13;
++TYZwLYnZw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_5dd18086-34b9-4483-bb49-c8a88baebae3"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LnmWXyuX0pLNSZ+VWaGW64S8GAzyeLqo3g6ftFmhb3DVnNFOmzY5LqEPlJvdHkNYgmgPYmsJh4zN&#13;
+xGDHAp9SGw==</DigestValue></Reference></SignedInfo><SignatureValue>k4GJlTn89XbzUS+qw4mDscmNq6udZry9MUiSjQuAJIPkUwhYln6vhYuyVwR3jzeQ2V6x0sk7U1/i&#13;
+A9WCJkz+z3v9Foyx/rBpwjmkTT5AZ94knVq6K6DzXxZYlYYmb/NVpzY28mykyAeQIZBXip+SsiOv&#13;
+2xaMSndYRPM8GUjeBRl+Pyzhu7PNC8EayHMbgBjhQ/LEO716scSK1x2KPoA4RG5lDadgIeKp3mS4&#13;
+bc+y9bhHBcKT1zusiEhabJtRAP72mJqG1AjjV1OG5byxVTN60P3wSRSpW/a15hGRKORP8P8483La&#13;
+HB4C+16kR6OLM7WD+bb2Ze7AhYgV0K44+j15iw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_5dd18086-34b9-4483-bb49-c8a88baebae3" Target="#_4462fd8a-30e1-4e32-90e9-fcbbc98dafa1"><Timestamp>2023-05-30 14:41:39</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

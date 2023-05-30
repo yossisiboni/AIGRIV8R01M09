@@ -1,0 +1,116 @@
+{
+  "itemId" : "_peMPgHeQEeyLu5lHL_bn8A",
+  "contextList" : [ {
+    "contextName" : "Dev",
+    "repoId" : "_VbLnsAkEEeyqjeyWToMFXw",
+    "parameterList" : [ {
+      "id" : "_uSR9wfO1Ee2aT-GASnopIg",
+      "name" : "ri_aig_ri_LOGIN"
+    }, {
+      "id" : "_uSR9wvO1Ee2aT-GASnopIg",
+      "name" : "ri_aig_ri_PASSWORD"
+    }, {
+      "id" : "_uSR9w_O1Ee2aT-GASnopIg",
+      "name" : "ri_aig_ri_SERVER"
+    }, {
+      "id" : "_uSR9xPO1Ee2aT-GASnopIg",
+      "name" : "ri_aig_ri_PORT"
+    }, {
+      "id" : "_uSR9xfO1Ee2aT-GASnopIg",
+      "name" : "ri_aig_ri_DB"
+    }, {
+      "id" : "_uSR9xvO1Ee2aT-GASnopIg",
+      "name" : "ri_aig_ri_SCHEMA"
+    }, {
+      "id" : "_uSR9x_O1Ee2aT-GASnopIg",
+      "name" : "ri_aig_ri_ADD_PARAM"
+    }, {
+      "id" : "_uSR9yPO1Ee2aT-GASnopIg",
+      "name" : "Zip_File_Location"
+    }, {
+      "id" : "_uSR9yfO1Ee2aT-GASnopIg",
+      "name" : "Zip_File_Name"
+    }, {
+      "id" : "_uSR9yvO1Ee2aT-GASnopIg",
+      "name" : "Zip_File_Working_Location"
+    }, {
+      "id" : "_uSR9y_O1Ee2aT-GASnopIg",
+      "name" : "Zip_File_BackUp_Location"
+    }, {
+      "id" : "_uSR9zPO1Ee2aT-GASnopIg",
+      "name" : "con_table_name"
+    }, {
+      "id" : "_uSR9zfO1Ee2aT-GASnopIg",
+      "name" : "con_file_name"
+    }, {
+      "id" : "_uSR9zvO1Ee2aT-GASnopIg",
+      "name" : "con_row_number_stg"
+    }, {
+      "id" : "_uSR9z_O1Ee2aT-GASnopIg",
+      "name" : "con_row_number_riappldb"
+    }, {
+      "id" : "_uSR90PO1Ee2aT-GASnopIg",
+      "name" : "con_error_component"
+    }, {
+      "id" : "_uSR90fO1Ee2aT-GASnopIg",
+      "name" : "con_error_message"
+    }, {
+      "id" : "_uSR90vO1Ee2aT-GASnopIg",
+      "name" : "con_limit_count"
+    }, {
+      "id" : "_uSR90_O1Ee2aT-GASnopIg",
+      "name" : "Talend_Output_Files"
+    }, {
+      "id" : "_uSR91PO1Ee2aT-GASnopIg",
+      "name" : "con_CSV_line_number"
+    }, {
+      "id" : "_uSR91fO1Ee2aT-GASnopIg",
+      "name" : "con_Table_lines_number"
+    }, {
+      "id" : "_uSR91vO1Ee2aT-GASnopIg",
+      "name" : "propertyFileLocation"
+    }, {
+      "id" : "_uSR91_O1Ee2aT-GASnopIg",
+      "name" : "propertyFileName"
+    }, {
+      "id" : "_uSR92PO1Ee2aT-GASnopIg",
+      "name" : "loadingLocation"
+    }, {
+      "id" : "_uSR92fO1Ee2aT-GASnopIg",
+      "name" : "loadingName"
+    }, {
+      "id" : "_uSR92vO1Ee2aT-GASnopIg",
+      "name" : "contractControlFileLocation"
+    }, {
+      "id" : "_uSR92_O1Ee2aT-GASnopIg",
+      "name" : "contractControlFileName"
+    }, {
+      "id" : "_uSR93PO1Ee2aT-GASnopIg",
+      "name" : "instance"
+    }, {
+      "id" : "_uSR93fO1Ee2aT-GASnopIg",
+      "name" : "con_grp_set_exec_id"
+    }, {
+      "id" : "_uSR93vO1Ee2aT-GASnopIg",
+      "name" : "con_timestamp"
+    }, {
+      "id" : "_uSR93_O1Ee2aT-GASnopIg",
+      "name" : "archiveLocation"
+    }, {
+      "id" : "_uSR94PO1Ee2aT-GASnopIg",
+      "name" : "Zip_File_Name2"
+    }, {
+      "id" : "_uSR94fO1Ee2aT-GASnopIg",
+      "name" : "instance2"
+    }, {
+      "id" : "_uSR94vO1Ee2aT-GASnopIg",
+      "name" : "trtControlFileName"
+    }, {
+      "id" : "_uSR94_O1Ee2aT-GASnopIg",
+      "name" : "con_trttimestamp"
+    }, {
+      "id" : "_uSR95PO1Ee2aT-GASnopIg",
+      "name" : "outputLocation"
+    } ]
+  } ]
+}

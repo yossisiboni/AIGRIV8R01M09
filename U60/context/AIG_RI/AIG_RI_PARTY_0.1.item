@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_uUHw0PO1Ee2aT-GASnopIg">
+    <contextParameter comment="" name="src_aig_ri_LOGIN" prompt="src_aig_ri_LOGIN?" promptNeeded="false" type="id_String" value="aig-migration-dev" xmi:id="_uUHw0fO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="src_aig_ri_PASSWORD" prompt="src_aig_ri_PASSWORD?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:nfxW2gOwsQmKaipCD5pZf9ehZFoUYgIQfjShiL2JO9M/gJGVcQ==" xmi:id="_uUHw0vO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="src_aig_ri_SERVER" prompt="src_aig_ri_SERVER?" promptNeeded="false" type="id_String" value="10.96.10.20" xmi:id="_uUHw0_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="src_aig_ri_PORT" prompt="src_aig_ri_PORT?" promptNeeded="false" type="id_String" value="1433" xmi:id="_uUHw1PO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="src_aig_ri_DB" prompt="src_aig_ri_DB?" promptNeeded="false" type="id_String" value="AIGSRC0408" xmi:id="_uUHw1fO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="src_aig_ri_SCHEMA" prompt="src_aig_ri_SCHEMA?" promptNeeded="false" type="id_String" value="dbo" xmi:id="_uUHw1vO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="src_aig_ri_ADD_PARAM" prompt="src_aig_ri_ADD_PARAM?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uUHw1_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="stg_aig_ri_LOGIN" prompt="stg_aig_ri_LOGIN?" promptNeeded="false" type="id_String" value="aig-migration-dev" xmi:id="_uUHw2PO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="stg_aig_ri_PASSWORD" prompt="stg_aig_ri_PASSWORD?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:EuuMwcWI9frNFtgWypeZ47K4xqMSN/96SBaArW33EgU7m2+9/A==" xmi:id="_uUHw2fO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="stg_aig_ri_SERVER" prompt="stg_aig_ri_SERVER?" promptNeeded="false" type="id_String" value="10.96.10.20" xmi:id="_uUHw2vO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="stg_aig_ri_PORT" prompt="stg_aig_ri_PORT?" promptNeeded="false" type="id_String" value="1433" xmi:id="_uUHw2_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="stg_aig_ri_DB" prompt="stg_aig_ri_DB?" promptNeeded="false" type="id_String" value="AIGSRC0408" xmi:id="_uUHw3PO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="stg_aig_ri_SCHEMA" prompt="stg_aig_ri_SCHEMA?" promptNeeded="false" type="id_String" value="STG" xmi:id="_uUHw3fO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="stg_aig_ri_ADD_PARAM" prompt="stg_aig_ri_ADD_PARAM?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uUHw3vO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_LOGIN" prompt="ri_aig_ri_LOGIN?" promptNeeded="false" type="id_String" value="aig-migration-dev" xmi:id="_uUHw3_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_PASSWORD" prompt="ri_aig_ri_PASSWORD?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:C/uKGWqd0umfwTmxFA7MV1opj+6UwTvTAqL6ZkGmAeLxut3RpQ==" xmi:id="_uUHw4PO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_SERVER" prompt="ri_aig_ri_SERVER?" promptNeeded="false" type="id_String" value="10.96.10.20" xmi:id="_uUHw4fO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_PORT" prompt="ri_aig_ri_PORT?" promptNeeded="false" type="id_String" value="1433" xmi:id="_uUHw4vO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_DB" prompt="ri_aig_ri_DB?" promptNeeded="false" type="id_String" value="RIAPPLDB" xmi:id="_uUHw4_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_SCHEMA" prompt="ri_aig_ri_SCHEMA?" promptNeeded="false" type="id_String" value="RI" xmi:id="_uUHw5PO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_ADD_PARAM" prompt="ri_aig_ri_ADD_PARAM?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uUHw5fO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="Zip_File_Location" prompt="Zip_File_Location?" promptNeeded="false" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/RI_SHARE/RI/INPUTFILES/TXT&quot;" xmi:id="_uUHw5vO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="Zip_File_Name" prompt="Zip_File_Name?" promptNeeded="false" type="id_String" value="&quot;PARTY.zip&quot;" xmi:id="_uUHw5_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="Zip_File_Working_Location" prompt="Zip_File_Working_Location?" promptNeeded="false" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/RI_SHARE/RI/WORKING/TXT/&quot;" xmi:id="_uUHw6PO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="Zip_File_BackUp_Location" prompt="Zip_File_BackUp_Location?" promptNeeded="false" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/RI_SHARE/RI/INPUTFILES/TXT/&quot;" xmi:id="_uUHw6fO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="Party_CSV_Exttracted_files_location" prompt="Party_CSV_Exttracted_files_location?" promptNeeded="false" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/RI_SHARE/RI/INPUTFILES/TXT/AIG_PARTY_CSV/&quot;" xmi:id="_uUHw6vO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_table_name" prompt="con_table_name?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uUHw6_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_file_name" prompt="con_file_name?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uUHw7PO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_number_stg" prompt="con_row_number_stg?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uUHw7fO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_number_riappldb" prompt="con_row_number_riappldb?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uUHw7vO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_error_component" prompt="con_error_component?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uUHw7_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_error_message" prompt="con_error_message?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uUHw8PO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="Inbound_file_name" prompt="Inbound_file_name?" promptNeeded="false" type="id_String" value="&quot;Inbound.csv&quot;" xmi:id="_uUHw8fO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="Inbound_file_location" prompt="Inbound_file_location?" promptNeeded="false" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/&quot;" xmi:id="_uUHw8vO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="Inbound_row_number" prompt="Inbound_row_number?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uUHw8_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_limit_count" prompt="con_limit_count?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uUHw9PO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="Talend_Output_Files" prompt="Talend_Output_Files?" promptNeeded="false" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/RI_SHARE/RI/OUTPUTFILES/TXT/&quot;" xmi:id="_uUHw9fO1Ee2aT-GASnopIg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_uUHw9vO1Ee2aT-GASnopIg">
+    <contextParameter comment="" name="src_aig_ri_LOGIN" prompt="src_aig_ri_LOGIN?" promptNeeded="false" type="id_String" value="aig-migration-dev" xmi:id="_uUHw9_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="src_aig_ri_PASSWORD" prompt="src_aig_ri_PASSWORD?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:02bTtFJUZD9WpCqVP+gGvh5jHxGD0WfEmN4d6okxLCP/VsGQrw==" xmi:id="_uUHw-PO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="src_aig_ri_SERVER" prompt="src_aig_ri_SERVER?" promptNeeded="false" type="id_String" value="10.96.10.20" xmi:id="_uUHw-fO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="src_aig_ri_PORT" prompt="src_aig_ri_PORT?" promptNeeded="false" type="id_String" value="1433" xmi:id="_uUHw-vO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="src_aig_ri_DB" prompt="src_aig_ri_DB?" promptNeeded="false" type="id_String" value="AIGSRC0408" xmi:id="_uUHw-_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="src_aig_ri_SCHEMA" prompt="src_aig_ri_SCHEMA?" promptNeeded="false" type="id_String" value="dbo" xmi:id="_uUHw_PO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="src_aig_ri_ADD_PARAM" prompt="src_aig_ri_ADD_PARAM?" promptNeeded="false" type="id_String" value="" xmi:id="_uUHw_fO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="stg_aig_ri_LOGIN" prompt="stg_aig_ri_LOGIN?" promptNeeded="false" type="id_String" value="aig-migration-dev" xmi:id="_uUHw_vO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="stg_aig_ri_PASSWORD" prompt="stg_aig_ri_PASSWORD?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:W2e6QaMbg2lps+iyuELjEpJGTpnp59vEPylgY+j/f9/VjZXIHQ==" xmi:id="_uUHw__O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="stg_aig_ri_SERVER" prompt="stg_aig_ri_SERVER?" promptNeeded="false" type="id_String" value="10.96.10.20" xmi:id="_uUHxAPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="stg_aig_ri_PORT" prompt="stg_aig_ri_PORT?" promptNeeded="false" type="id_String" value="1433" xmi:id="_uUHxAfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="stg_aig_ri_DB" prompt="stg_aig_ri_DB?" promptNeeded="false" type="id_String" value="AIGSRC0408" xmi:id="_uUHxAvO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="stg_aig_ri_SCHEMA" prompt="stg_aig_ri_SCHEMA?" promptNeeded="false" type="id_String" value="STG" xmi:id="_uUHxA_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="stg_aig_ri_ADD_PARAM" prompt="stg_aig_ri_ADD_PARAM?" promptNeeded="false" type="id_String" value="" xmi:id="_uUHxBPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_LOGIN" prompt="ri_aig_ri_LOGIN?" promptNeeded="false" type="id_String" value="aig-migration-dev" xmi:id="_uUHxBfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_PASSWORD" prompt="ri_aig_ri_PASSWORD?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:WpvVNMSNGuOH069/s8+i4cinjsr8m5dBbS6qtgeF4LI0y3qAuQ==" xmi:id="_uUHxBvO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_SERVER" prompt="ri_aig_ri_SERVER?" promptNeeded="false" type="id_String" value="10.96.10.20" xmi:id="_uUHxB_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_PORT" prompt="ri_aig_ri_PORT?" promptNeeded="false" type="id_String" value="1433" xmi:id="_uUHxCPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_DB" prompt="ri_aig_ri_DB?" promptNeeded="false" type="id_String" value="RIAPPLDB" xmi:id="_uUHxCfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_SCHEMA" prompt="ri_aig_ri_SCHEMA?" promptNeeded="false" type="id_String" value="RI" xmi:id="_uUHxCvO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_ADD_PARAM" prompt="ri_aig_ri_ADD_PARAM?" promptNeeded="false" type="id_String" value="" xmi:id="_uUHxC_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="Zip_File_Location" prompt="Zip_File_Location?" promptNeeded="false" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/RI_SHARE/RI/INPUTFILES/TXT&quot;" xmi:id="_uUHxDPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="Zip_File_Name" prompt="Zip_File_Name?" promptNeeded="false" type="id_String" value="&quot;PARTY.zip&quot;" xmi:id="_uUHxDfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="Zip_File_Working_Location" prompt="Zip_File_Working_Location?" promptNeeded="false" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/RI_SHARE/RI/WORKING/TXT/&quot;" xmi:id="_uUHxDvO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="Zip_File_BackUp_Location" prompt="Zip_File_BackUp_Location?" promptNeeded="false" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/RI_SHARE/RI/INPUTFILES/TXT/&quot;" xmi:id="_uUHxD_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="Party_CSV_Exttracted_files_location" prompt="Party_CSV_Exttracted_files_location?" promptNeeded="false" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/RI_SHARE/RI/INPUTFILES/TXT/AIG_PARTY_CSV/&quot;" xmi:id="_uUHxEPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_table_name" prompt="con_table_name?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uUHxEfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_file_name" prompt="con_file_name?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uUHxEvO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_number_stg" prompt="con_row_number_stg?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uUHxE_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_number_riappldb" prompt="con_row_number_riappldb?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uUHxFPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_error_component" prompt="con_error_component?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uUHxFfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_error_message" prompt="con_error_message?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uUHxFvO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="Inbound_file_name" prompt="Inbound_file_name?" promptNeeded="false" type="id_String" value="&quot;Inbound.csv&quot;" xmi:id="_uUHxF_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="Inbound_file_location" prompt="Inbound_file_location?" promptNeeded="false" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/&quot;" xmi:id="_uUHxGPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="Inbound_row_number" prompt="Inbound_row_number?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uUHxGfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_limit_count" prompt="con_limit_count?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uUHxGvO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="Talend_Output_Files" prompt="Talend_Output_Files?" promptNeeded="false" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/RI_SHARE/RI/OUTPUTFILES/TXT/&quot;" xmi:id="_uUHxG_O1Ee2aT-GASnopIg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a8d1724c-4c76-4d24-8f80-823b7953b9ad"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>0avbTuCi+vlXakC2v+3MO7qNvafYuQ9TU9HLMeLXCO0bdbKJvBEy99K9F8b/QRB9fMxozH/LTHuL&#13;
++/+Vtegy5w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ea4bdc4e-440a-4eca-b8a8-68f9080b72d0"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>piAKdqO+jlfvlPlBHmRY4mT/snicNOt95WR0Fs6nXxh/hcJaUwynJQx8vyD1/dKiwMXCyJW2k+TL&#13;
+HFz7QjU/Og==</DigestValue></Reference></SignedInfo><SignatureValue>QAYFelmBXpO1tuWPn/sJjhfBgOg00vtBG29dasmw9/k9KA5Agu5VnyHIBBac0vnCpQrpidXRVBNX&#13;
+zkbhtqoemVLjckxK+BNX42twLjdzNakHFg70/SoHGMgDjScoARMgwQeDao5XLE4MdTK5sz311EZ3&#13;
+mxCTtGn60aNeJij5KNLZG8vu0KIVQaFCQYvPwyHnEp+8GmGFWzQnzNiJObczPEf5+a3RWivphgJi&#13;
+WxVgrHlAKq0lrEq9zTCyvaNJ2bNPbWoStSzGIxXzL2tD2WQrajzAIgpJqJ89oqzAmLLLJ0e4UKfK&#13;
+GYrxGord2IQbvSERO+PNBBGXPIZZvZhk7P3EXA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ea4bdc4e-440a-4eca-b8a8-68f9080b72d0" Target="#_a8d1724c-4c76-4d24-8f80-823b7953b9ad"><Timestamp>2023-05-30 14:27:40</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

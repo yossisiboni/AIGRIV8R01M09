@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Dev" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Prod">
+    <contextParameter comment="" internalId="_e-Pz4P72Ee2vYcaY7YAVmg" name="con_row_number_stg" prompt="con_row_number_stg?" promptNeeded="false" type="id_Integer" value="0"/>
+    <contextParameter comment="" internalId="_e-Pz4f72Ee2vYcaY7YAVmg" name="ri_aig_ri_ADD_PARAM" prompt="ri_aig_ri_ADD_PARAM?" promptNeeded="false" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" internalId="_e-Pz4v72Ee2vYcaY7YAVmg" name="ri_aig_ri_DB" prompt="ri_aig_ri_DB?" promptNeeded="false" type="id_String" value="TA"/>
+    <contextParameter comment="" internalId="_e-Pz4_72Ee2vYcaY7YAVmg" name="ri_aig_ri_LOGIN" prompt="ri_aig_ri_LOGIN?" promptNeeded="false" type="id_String" value="aig-migration-test"/>
+    <contextParameter comment="" internalId="_e-Pz5P72Ee2vYcaY7YAVmg" name="ri_aig_ri_PASSWORD" prompt="ri_aig_ri_PASSWORD?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:lcGwsWuW8UvkBr2oWdhgPIQiQVtr3kdMkyEnVo5kIvxBuIbxZw=="/>
+    <contextParameter comment="" internalId="_e-Pz5f72Ee2vYcaY7YAVmg" name="ri_aig_ri_PORT" prompt="ri_aig_ri_PORT?" promptNeeded="false" type="id_String" value="1433"/>
+    <contextParameter comment="" internalId="_e-Pz5v72Ee2vYcaY7YAVmg" name="ri_aig_ri_SCHEMA" prompt="ri_aig_ri_SCHEMA?" promptNeeded="false" type="id_String" value="RI"/>
+    <contextParameter comment="" internalId="_e-Pz5_72Ee2vYcaY7YAVmg" name="ri_aig_ri_SERVER" prompt="ri_aig_ri_SERVER?" promptNeeded="false" type="id_String" value="10.96.10.52"/>
+    <contextParameter comment="" internalId="_e-Pz6P72Ee2vYcaY7YAVmg" name="stg_aig_ri_ADD_PARAM" prompt="stg_aig_ri_ADD_PARAM?" promptNeeded="false" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" internalId="_e-Pz6f72Ee2vYcaY7YAVmg" name="stg_aig_ri_DB" prompt="stg_aig_ri_DB?" promptNeeded="false" type="id_String" value="AIGSRC0408"/>
+    <contextParameter comment="" internalId="_e-Pz6v72Ee2vYcaY7YAVmg" name="stg_aig_ri_LOGIN" prompt="stg_aig_ri_LOGIN?" promptNeeded="false" type="id_String" value="aig-migration-dev"/>
+    <contextParameter comment="" internalId="_e-Pz6_72Ee2vYcaY7YAVmg" name="stg_aig_ri_PASSWORD" prompt="stg_aig_ri_PASSWORD?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:FmjRgJI05AAYlMh2Mx+cJonw3+p+qvti4EJr611TSb9TYU3clw=="/>
+    <contextParameter comment="" internalId="_e-Pz7P72Ee2vYcaY7YAVmg" name="stg_aig_ri_PORT" prompt="stg_aig_ri_PORT?" promptNeeded="false" type="id_String" value="1433"/>
+    <contextParameter comment="" internalId="_e-Pz7f72Ee2vYcaY7YAVmg" name="stg_aig_ri_SCHEMA" prompt="stg_aig_ri_SCHEMA?" promptNeeded="false" type="id_String" value="STG"/>
+    <contextParameter comment="" internalId="_e-Pz7v72Ee2vYcaY7YAVmg" name="stg_aig_ri_SERVER" prompt="stg_aig_ri_SERVER?" promptNeeded="false" type="id_String" value="10.96.10.20"/>
+    <contextParameter comment="" internalId="_e-Pz7_72Ee2vYcaY7YAVmg" name="Zip_File_Name" prompt="Zip_File_Name?" promptNeeded="false" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" internalId="_e-Pz8P72Ee2vYcaY7YAVmg" name="con_row_rivcntract" prompt="con_row_rivcntract?" promptNeeded="false" type="id_Integer" value="0"/>
+    <contextParameter comment="" internalId="_e-Pz8f72Ee2vYcaY7YAVmg" name="src_aig_ri_ADD_PARAM" prompt="src_aig_ri_ADD_PARAM?" promptNeeded="false" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" internalId="_e-Pz8v72Ee2vYcaY7YAVmg" name="src_aig_ri_DB" prompt="src_aig_ri_DB?" promptNeeded="false" type="id_String" value="AIGSRC0408"/>
+    <contextParameter comment="" internalId="_e-Pz8_72Ee2vYcaY7YAVmg" name="src_aig_ri_LOGIN" prompt="src_aig_ri_LOGIN?" promptNeeded="false" type="id_String" value="aig-migration-dev"/>
+    <contextParameter comment="" internalId="_e-Pz9P72Ee2vYcaY7YAVmg" name="src_aig_ri_PASSWORD" prompt="src_aig_ri_PASSWORD?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1://0iZnI7pMGSYbR1VXzHp36Xk/7uYu7QOj0oPM0Fzgkq6cxJbA=="/>
+    <contextParameter comment="" internalId="_e-Pz9f72Ee2vYcaY7YAVmg" name="src_aig_ri_PORT" prompt="src_aig_ri_PORT?" promptNeeded="false" type="id_String" value="1433"/>
+    <contextParameter comment="" internalId="_e-Pz9v72Ee2vYcaY7YAVmg" name="src_aig_ri_SCHEMA" prompt="src_aig_ri_SCHEMA?" promptNeeded="false" type="id_String" value="MRR"/>
+    <contextParameter comment="" internalId="_e-Pz9_72Ee2vYcaY7YAVmg" name="src_aig_ri_SERVER" prompt="src_aig_ri_SERVER?" promptNeeded="false" type="id_String" value="10.96.10.20"/>
+    <contextParameter comment="" name="archiveLocation" prompt="archiveLocation?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="con_CALC_DATE" prompt="con_CALC_DATE?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="con_CSV_line_number" prompt="con_CSV_line_number?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_error_component" prompt="con_error_component?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="con_error_message" prompt="con_error_message?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="con_file_name" prompt="con_file_name?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="con_grp_set_exec_id" prompt="con_grp_set_exec_id?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_limit_count" prompt="con_limit_count?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_macseqnum" prompt="con_macseqnum?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_AI" prompt="con_row_AI?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_aigintrx" prompt="con_row_aigintrx?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_dup" prompt="con_row_dup?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_fac" prompt="con_row_fac?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_gross" prompt="con_row_gross?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_intl" prompt="con_row_intl?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_notype" prompt="con_row_notype?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_number_riappldb" prompt="con_row_number_riappldb?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_ridateint" prompt="con_row_ridateint?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_risattrint" prompt="con_row_risattrint?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_risrcintrf" prompt="con_row_risrcintrf?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_ritrncalc" prompt="con_row_ritrncalc?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_section_ref" prompt="con_row_section_ref?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_tty" prompt="con_row_tty?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_tty13" prompt="con_row_tty13?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_tty13NICO" prompt="con_row_tty13NICO?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_tty15" prompt="con_row_tty15?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_tty15NICO" prompt="con_row_tty15NICO?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_tty6" prompt="con_row_tty6?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_tty6NICO" prompt="con_row_tty6NICO?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_uniqe_ced" prompt="con_row_uniqe_ced?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_Table_lines_number" prompt="con_Table_lines_number?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_table_name" prompt="con_table_name?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="con_timestamp" prompt="con_timestamp?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="InboundControlFileLocation" prompt="InboundControlFileLocation?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/RI_SHARE/RI/INPUTFILES/TXT/FIRST_ENV/&quot;"/>
+    <contextParameter comment="" name="InboundControlFileName" prompt="InboundControlFileName?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="instance" prompt="instance?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;INBOUND&quot;"/>
+    <contextParameter comment="" name="loadingLocation" prompt="loadingLocation?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="loadingName" prompt="loadingName?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;loadingProperties.properties&quot;"/>
+    <contextParameter comment="" name="MATCH_IND" prompt="MATCH_IND?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="outputLocation" prompt="outputLocation?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/RI_SHARE/RI/OUTPUTFILES/TXT/&quot;"/>
+    <contextParameter comment="" name="propertyFileLocation" prompt="propertyFileLocation?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="propertyFileName" prompt="propertyFileName?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;RI.properties&quot;"/>
+    <contextParameter comment="" name="Talend_Output_Files" prompt="Talend_Output_Files?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/RI_SHARE/RI/OUTPUTFILES/TXT/&quot;"/>
+    <contextParameter comment="" name="Zip_File_Working_Location" prompt="Zip_File_Working_Location?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/RI_SHARE/RI/WORKING/TXT/&quot;"/>
+  </context>
+  <context confirmationNeeded="false" name="Dev">
+    <contextParameter comment="" internalId="_e-Pz-P72Ee2vYcaY7YAVmg" name="con_row_number_stg" prompt="con_row_number_stg?" promptNeeded="false" type="id_Integer" value="0"/>
+    <contextParameter comment="" internalId="_e-Pz-f72Ee2vYcaY7YAVmg" name="ri_aig_ri_ADD_PARAM" prompt="ri_aig_ri_ADD_PARAM?" promptNeeded="false" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" internalId="_e-Pz-v72Ee2vYcaY7YAVmg" name="ri_aig_ri_DB" prompt="ri_aig_ri_DB?" promptNeeded="false" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" internalId="_e-Pz-_72Ee2vYcaY7YAVmg" name="ri_aig_ri_LOGIN" prompt="ri_aig_ri_LOGIN?" promptNeeded="false" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" internalId="_e-Pz_P72Ee2vYcaY7YAVmg" name="ri_aig_ri_PASSWORD" prompt="ri_aig_ri_PASSWORD?" promptNeeded="false" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_e-Pz_f72Ee2vYcaY7YAVmg" name="ri_aig_ri_PORT" prompt="ri_aig_ri_PORT?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_e-Pz_v72Ee2vYcaY7YAVmg" name="ri_aig_ri_SCHEMA" prompt="ri_aig_ri_SCHEMA?" promptNeeded="false" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" internalId="_e-Pz__72Ee2vYcaY7YAVmg" name="ri_aig_ri_SERVER" prompt="ri_aig_ri_SERVER?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_e-P0AP72Ee2vYcaY7YAVmg" name="stg_aig_ri_ADD_PARAM" prompt="stg_aig_ri_ADD_PARAM?" promptNeeded="false" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" internalId="_e-P0Af72Ee2vYcaY7YAVmg" name="stg_aig_ri_DB" prompt="stg_aig_ri_DB?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_e-P0Av72Ee2vYcaY7YAVmg" name="stg_aig_ri_LOGIN" prompt="stg_aig_ri_LOGIN?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_e-P0A_72Ee2vYcaY7YAVmg" name="stg_aig_ri_PASSWORD" prompt="stg_aig_ri_PASSWORD?" promptNeeded="false" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_e-P0BP72Ee2vYcaY7YAVmg" name="stg_aig_ri_PORT" prompt="stg_aig_ri_PORT?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_e-P0Bf72Ee2vYcaY7YAVmg" name="stg_aig_ri_SCHEMA" prompt="stg_aig_ri_SCHEMA?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_e-P0Bv72Ee2vYcaY7YAVmg" name="stg_aig_ri_SERVER" prompt="stg_aig_ri_SERVER?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_e-P0B_72Ee2vYcaY7YAVmg" name="Zip_File_Name" prompt="Zip_File_Name?" promptNeeded="false" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" internalId="_e-P0CP72Ee2vYcaY7YAVmg" name="con_row_rivcntract" prompt="con_row_rivcntract?" promptNeeded="false" type="id_Integer" value="0"/>
+    <contextParameter comment="" internalId="_e-P0Cf72Ee2vYcaY7YAVmg" name="src_aig_ri_ADD_PARAM" prompt="src_aig_ri_ADD_PARAM?" promptNeeded="false" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" internalId="_e-P0Cv72Ee2vYcaY7YAVmg" name="src_aig_ri_DB" prompt="src_aig_ri_DB?" promptNeeded="false" type="id_String" value="AIGSRC0408"/>
+    <contextParameter comment="" internalId="_e-P0C_72Ee2vYcaY7YAVmg" name="src_aig_ri_LOGIN" prompt="src_aig_ri_LOGIN?" promptNeeded="false" type="id_String" value="aig-migration-dev"/>
+    <contextParameter comment="" internalId="_e-P0DP72Ee2vYcaY7YAVmg" name="src_aig_ri_PASSWORD" prompt="src_aig_ri_PASSWORD?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:xcjtSXCWaSAmseoRy5kHbqVSCp/bay7xE+9wSNOhnNW5zkjJJQ=="/>
+    <contextParameter comment="" internalId="_e-P0Df72Ee2vYcaY7YAVmg" name="src_aig_ri_PORT" prompt="src_aig_ri_PORT?" promptNeeded="false" type="id_String" value="1433"/>
+    <contextParameter comment="" internalId="_e-P0Dv72Ee2vYcaY7YAVmg" name="src_aig_ri_SCHEMA" prompt="src_aig_ri_SCHEMA?" promptNeeded="false" type="id_String" value="MRR"/>
+    <contextParameter comment="" internalId="_e-P0D_72Ee2vYcaY7YAVmg" name="src_aig_ri_SERVER" prompt="src_aig_ri_SERVER?" promptNeeded="false" type="id_String" value="10.96.10.20"/>
+    <contextParameter comment="" name="archiveLocation" prompt="archiveLocation?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="con_CALC_DATE" prompt="con_CALC_DATE?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="con_CSV_line_number" prompt="con_CSV_line_number?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_error_component" prompt="con_error_component?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="con_error_message" prompt="con_error_message?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="con_file_name" prompt="con_file_name?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="con_grp_set_exec_id" prompt="con_grp_set_exec_id?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_limit_count" prompt="con_limit_count?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_macseqnum" prompt="con_macseqnum?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_AI" prompt="con_row_AI?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_aigintrx" prompt="con_row_aigintrx?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_dup" prompt="con_row_dup?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_fac" prompt="con_row_fac?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_gross" prompt="con_row_gross?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_intl" prompt="con_row_intl?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_notype" prompt="con_row_notype?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_number_riappldb" prompt="con_row_number_riappldb?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_ridateint" prompt="con_row_ridateint?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_risattrint" prompt="con_row_risattrint?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_risrcintrf" prompt="con_row_risrcintrf?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_ritrncalc" prompt="con_row_ritrncalc?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_section_ref" prompt="con_row_section_ref?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_tty" prompt="con_row_tty?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_tty13" prompt="con_row_tty13?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_tty13NICO" prompt="con_row_tty13NICO?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_tty15" prompt="con_row_tty15?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_tty15NICO" prompt="con_row_tty15NICO?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_tty6" prompt="con_row_tty6?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_tty6NICO" prompt="con_row_tty6NICO?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_row_uniqe_ced" prompt="con_row_uniqe_ced?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_Table_lines_number" prompt="con_Table_lines_number?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="con_table_name" prompt="con_table_name?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="con_timestamp" prompt="con_timestamp?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="InboundControlFileLocation" prompt="InboundControlFileLocation?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/RI_SHARE/RI/INPUTFILES/TXT/FIRST_ENV/&quot;"/>
+    <contextParameter comment="" name="InboundControlFileName" prompt="InboundControlFileName?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="instance" prompt="instance?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;INBOUND&quot;"/>
+    <contextParameter comment="" name="loadingLocation" prompt="loadingLocation?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="loadingName" prompt="loadingName?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;loadingProperties.properties&quot;"/>
+    <contextParameter comment="" name="MATCH_IND" prompt="MATCH_IND?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="outputLocation" prompt="outputLocation?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/RI_SHARE/RI/OUTPUTFILES/TXT/&quot;"/>
+    <contextParameter comment="" name="propertyFileLocation" prompt="propertyFileLocation?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="propertyFileName" prompt="propertyFileName?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="Talend_Output_Files" prompt="Talend_Output_Files?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/RI_SHARE/RI/OUTPUTFILES/TXT/&quot;"/>
+    <contextParameter comment="" name="Zip_File_Working_Location" prompt="Zip_File_Working_Location?" promptNeeded="false" repositoryContextId="_4IOSEPNZEeuX9OFvf4_9fA" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/RI_SHARE/RI/WORKING/TXT/&quot;"/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" show="false" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx32768M&quot;,&quot;-XX:-UseGCOverheadLimit&quot;]}"/>
+    <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" show="false" value="true"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="true"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:VYWt6RlivQ9jRSQn3BK/YwTo3NQlhe7/v3iSh10C"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;F:/Talend/7.3.1/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:sHJFUOerV58BcXl9gSSbK0nK7KwAOV6zSGCGmNt5"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_AwANgDDiEeyDJ4DLBzLAkw" name="DataOperation"/>
+    <routinesParameter id="_Ax_KgDDiEeyDJ4DLBzLAkw" name="Mathematical"/>
+    <routinesParameter id="_AzLdUDDiEeyDJ4DLBzLAkw" name="Numeric"/>
+    <routinesParameter id="_A0XwIDDiEeyDJ4DLBzLAkw" name="Relational"/>
+    <routinesParameter id="_A609cDDiEeyDJ4DLBzLAkw" name="SQLike"/>
+    <routinesParameter id="_A1tz8DDiEeyDJ4DLBzLAkw" name="StringHandling"/>
+    <routinesParameter id="_A2rdQDDiEeyDJ4DLBzLAkw" name="TalendDataGenerator"/>
+    <routinesParameter id="_A3t_EDDiEeyDJ4DLBzLAkw" name="TalendDate"/>
+    <routinesParameter id="_A537MDDiEeyDJ4DLBzLAkw" name="TalendStringUtil"/>
+    <routinesParameter id="_A4xH8DDiEeyDJ4DLBzLAkw" name="TalendString"/>
+  </parameters>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Error occurred while trying to populate files extracted TO INBOUND_TTY_OUT file&quot;);&#10;System.out.println(&quot;Error occurred in &quot; +  jobName);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="SubJob_Failed"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_2"/>
+  </node>
+  <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileList_1"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.outputLocation+&quot;TALEND_FRE_PROCESS_FILES/&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
+    <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="YES"/>
+    <elementParameter field="CHECK" name="ERROR" value="true"/>
+    <elementParameter field="CHECK" name="GLOBEXPRESSIONS" value="true"/>
+    <elementParameter field="TABLE" name="FILES">
+      <elementValue elementRef="FILEMASK" value="&quot;TTY_OUT_*.TXT&quot;"/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="ORDER_BY_NOTHING" value="true"/>
+    <elementParameter field="RADIO" name="ORDER_BY_FILENAME" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_BY_FILESIZE" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_BY_MODIFIEDDATE" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_ACTION_ASC" value="true"/>
+    <elementParameter field="RADIO" name="ORDER_ACTION_DESC" value="false"/>
+    <elementParameter field="CHECK" name="IFEXCLUDE" value="false"/>
+    <elementParameter field="TEXT" name="EXCLUDEFILEMASK" show="false" value="&quot;*.txt&quot;"/>
+    <elementParameter field="CHECK" name="FORMAT_FILEPATH_TO_SLASH" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_4"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILEPATH&quot;))"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HEADER" value="1"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="true"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" show="false" value="&quot;C:/Users/mark.shachar/workspace&quot;"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" show="false" value="10"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="true"/>
+    <elementParameter field="TABLE" name="TRIMSELECT" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="SOURCE_SEQ_NO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TRAN_CALC_SEQ"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SECTION_REF_NO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CONT_START_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="REINSUR_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BROKER_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ACP_SEQ_NUM"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ACCOUNTING_ITEM"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ACOUNTING_AMOUNT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CURRENCY_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SYSTEM_CCY_RATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PIVOT_AMOUNT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ACCOUNTING_PCT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CONTRACT_SHARE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="REINSURER_SHARE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CREDIT_DEBIT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CASH_REMITTANCE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CALC_TYPE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RI_EXTERNAL_REF"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BR_EXTERNAL_REF"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EXT_SECTION_REF"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ACCOUNTING_TYPE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TRANSACTION_TYPE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TRANSACTION_SUB_TYPE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FINANCIAL_TYPE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FINANCIAL_SUB_TYPE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CONT_NATURE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CONTRACT_NO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SECTION_NO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="SOURCE_SEQ_NO"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TRAN_CALC_SEQ"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SECTION_REF_NO"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CONT_START_DATE"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="REINSUR_ID"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BROKER_ID"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ACP_SEQ_NUM"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ACCOUNTING_ITEM"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ACOUNTING_AMOUNT"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CURRENCY_CODE"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SYSTEM_CCY_RATE"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PIVOT_AMOUNT"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ACCOUNTING_PCT"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CONTRACT_SHARE"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="REINSURER_SHARE"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CREDIT_DEBIT"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CASH_REMITTANCE"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CALC_TYPE"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RI_EXTERNAL_REF"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BR_EXTERNAL_REF"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EXT_SECTION_REF"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ACCOUNTING_TYPE"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TRANSACTION_TYPE"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TRANSACTION_SUB_TYPE"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FINANCIAL_TYPE"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FINANCIAL_SUB_TYPE"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CONT_NATURE"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CONTRACT_NO"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SECTION_NO"/>
+      <elementValue elementRef="DECODE" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" show="false" value=""/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="LABEL" value="TTY_INPUT"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileInputDelimited_4">
+      <column comment="" defaultValue="" key="true" length="-1" name="SOURCE_SEQ_NO" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="TRAN_CALC_SEQ" nullable="true" originalLength="15" pattern="" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="SECTION_REF_NO" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="CONT_START_DATE" nullable="true" originalLength="10" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="REINSUR_ID" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="BROKER_ID" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="ACP_SEQ_NUM" nullable="true" originalLength="15" pattern="" precision="0" sourceType="" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="ACCOUNTING_ITEM" nullable="true" originalLength="3" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="ACOUNTING_AMOUNT" nullable="true" originalLength="23" pattern="" precision="8" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="CURRENCY_CODE" nullable="true" originalLength="3" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="11" name="SYSTEM_CCY_RATE" nullable="true" originalLength="11" pattern="" precision="6" sourceType="" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="23" name="PIVOT_AMOUNT" nullable="true" originalLength="23" pattern="" precision="10" sourceType="" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="11" name="ACCOUNTING_PCT" nullable="true" originalLength="11" pattern="" precision="6" sourceType="" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="11" name="CONTRACT_SHARE" nullable="true" originalLength="11" pattern="" precision="6" sourceType="" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="11" name="REINSURER_SHARE" nullable="true" originalLength="11" pattern="" precision="6" sourceType="" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="CREDIT_DEBIT" nullable="true" originalLength="5" pattern="" precision="-1" sourceType="" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="CASH_REMITTANCE" nullable="true" originalLength="3" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="CALC_TYPE" nullable="true" originalLength="3" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="RI_EXTERNAL_REF" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="BR_EXTERNAL_REF" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="78" name="EXT_SECTION_REF" nullable="true" originalLength="78" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="ACCOUNTING_TYPE" nullable="true" originalLength="3" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TRANSACTION_TYPE" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TRANSACTION_SUB_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="FINANCIAL_TYPE" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="FINANCIAL_SUB_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="CONT_NATURE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="CONTRACT_NO" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="SECTION_NO" nullable="true" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" defaultValue="" key="true" length="-1" name="SOURCE_SEQ_NO" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="TRAN_CALC_SEQ" nullable="true" originalLength="15" pattern="" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="SECTION_REF_NO" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="CONT_START_DATE" nullable="true" originalLength="10" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="REINSUR_ID" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="BROKER_ID" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="ACP_SEQ_NUM" nullable="true" originalLength="15" pattern="" precision="0" sourceType="" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="ACCOUNTING_ITEM" nullable="true" originalLength="3" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="ACOUNTING_AMOUNT" nullable="true" originalLength="23" pattern="" precision="8" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="CURRENCY_CODE" nullable="true" originalLength="3" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="11" name="SYSTEM_CCY_RATE" nullable="true" originalLength="11" pattern="" precision="6" sourceType="" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="23" name="PIVOT_AMOUNT" nullable="true" originalLength="23" pattern="" precision="10" sourceType="" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="11" name="ACCOUNTING_PCT" nullable="true" originalLength="11" pattern="" precision="6" sourceType="" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="11" name="CONTRACT_SHARE" nullable="true" originalLength="11" pattern="" precision="6" sourceType="" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="11" name="REINSURER_SHARE" nullable="true" originalLength="11" pattern="" precision="6" sourceType="" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="CREDIT_DEBIT" nullable="true" originalLength="5" pattern="" precision="-1" sourceType="" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="CASH_REMITTANCE" nullable="true" originalLength="3" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="CALC_TYPE" nullable="true" originalLength="3" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="RI_EXTERNAL_REF" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="BR_EXTERNAL_REF" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="78" name="EXT_SECTION_REF" nullable="true" originalLength="78" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="ACCOUNTING_TYPE" nullable="true" originalLength="3" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TRANSACTION_TYPE" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TRANSACTION_SUB_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="FINANCIAL_TYPE" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="FINANCIAL_SUB_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="CONT_NATURE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="CONTRACT_NO" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="SECTION_NO" nullable="true" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tUnite" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tUnite_2"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tUnite_2">
+      <column comment="" defaultValue="" key="true" length="-1" name="SOURCE_SEQ_NO" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="TRAN_CALC_SEQ" nullable="true" originalLength="15" pattern="" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="SECTION_REF_NO" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="CONT_START_DATE" nullable="true" originalLength="10" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="REINSUR_ID" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="BROKER_ID" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="ACP_SEQ_NUM" nullable="true" originalLength="15" pattern="" precision="0" sourceType="" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="ACCOUNTING_ITEM" nullable="true" originalLength="3" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="ACOUNTING_AMOUNT" nullable="true" originalLength="23" pattern="" precision="8" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="CURRENCY_CODE" nullable="true" originalLength="3" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="11" name="SYSTEM_CCY_RATE" nullable="true" originalLength="11" pattern="" precision="6" sourceType="" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="23" name="PIVOT_AMOUNT" nullable="true" originalLength="23" pattern="" precision="10" sourceType="" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="11" name="ACCOUNTING_PCT" nullable="true" originalLength="11" pattern="" precision="6" sourceType="" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="11" name="CONTRACT_SHARE" nullable="true" originalLength="11" pattern="" precision="6" sourceType="" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="11" name="REINSURER_SHARE" nullable="true" originalLength="11" pattern="" precision="6" sourceType="" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="CREDIT_DEBIT" nullable="true" originalLength="5" pattern="" precision="-1" sourceType="" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="CASH_REMITTANCE" nullable="true" originalLength="3" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="CALC_TYPE" nullable="true" originalLength="3" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="RI_EXTERNAL_REF" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="BR_EXTERNAL_REF" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="78" name="EXT_SECTION_REF" nullable="true" originalLength="78" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="ACCOUNTING_TYPE" nullable="true" originalLength="3" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TRANSACTION_TYPE" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TRANSACTION_SUB_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="FINANCIAL_TYPE" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="FINANCIAL_SUB_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="CONT_NATURE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="CONTRACT_NO" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="SECTION_NO" nullable="true" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="608" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_2"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.outputLocation+&quot;TALEND_FRE_PROCESS_FILES/INBOUND_TTY_OUT_&quot;+context.con_timestamp+&quot;.TXT&quot;"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" show="false" value="true"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="APPEND" value="false"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
+    <elementParameter field="CHECK" name="COMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="1"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="90"/>
+    <elementParameter field="TEXT" name="LABEL" value="TTY"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileOutputDelimited_2">
+      <column comment="" defaultValue="" key="true" length="-1" name="SOURCE_SEQ_NO" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="TRAN_CALC_SEQ" nullable="true" originalLength="15" pattern="" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="SECTION_REF_NO" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="CONT_START_DATE" nullable="true" originalLength="10" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="REINSUR_ID" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="BROKER_ID" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="ACP_SEQ_NUM" nullable="true" originalLength="15" pattern="" precision="0" sourceType="" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="ACCOUNTING_ITEM" nullable="true" originalLength="3" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="38" name="ACOUNTING_AMOUNT" nullable="true" originalLength="23" pattern="" precision="8" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="CURRENCY_CODE" nullable="true" originalLength="3" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="11" name="SYSTEM_CCY_RATE" nullable="true" originalLength="11" pattern="" precision="6" sourceType="" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="23" name="PIVOT_AMOUNT" nullable="true" originalLength="23" pattern="" precision="10" sourceType="" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="11" name="ACCOUNTING_PCT" nullable="true" originalLength="11" pattern="" precision="6" sourceType="" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="11" name="CONTRACT_SHARE" nullable="true" originalLength="11" pattern="" precision="6" sourceType="" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="11" name="REINSURER_SHARE" nullable="true" originalLength="11" pattern="" precision="6" sourceType="" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="CREDIT_DEBIT" nullable="true" originalLength="5" pattern="" precision="-1" sourceType="" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="CASH_REMITTANCE" nullable="true" originalLength="3" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="CALC_TYPE" nullable="true" originalLength="3" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="RI_EXTERNAL_REF" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="BR_EXTERNAL_REF" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="78" name="EXT_SECTION_REF" nullable="true" originalLength="78" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="ACCOUNTING_TYPE" nullable="true" originalLength="3" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TRANSACTION_TYPE" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TRANSACTION_SUB_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="FINANCIAL_TYPE" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="FINANCIAL_SUB_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="CONT_NATURE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="CONTRACT_NO" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="SECTION_NO" nullable="true" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFileList_1" offsetLabelX="0" offsetLabelY="0" source="tFileList_1" target="tFileInputDelimited_4">
+    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate1"/>
+  </connection>
+  <connection connectorName="SUBJOB_ERROR" label="OnSubjobError" lineStyle="4" metaname="tFileList_1" offsetLabelX="0" offsetLabelY="0" source="tFileList_1" target="tJava_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobError1"/>
+  </connection>
+  <connection connectorName="FLOW" label="row8" lineStyle="10" mergeOrder="1" metaname="tFileInputDelimited_4" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_4" target="tUnite_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row8"/>
+  </connection>
+  <connection connectorName="FLOW" label="row9" lineStyle="0" metaname="tUnite_2" offsetLabelX="0" offsetLabelY="0" source="tUnite_2" target="tFileOutputDelimited_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row9"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileList_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_3d8f8184-1717-40ec-b28a-0ef2653fc80e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>N0zIyibfbmF3o+ij5Bwcpky9CDH18i1U3B6D13f3TonH49Bx0ft+Ts5iPGjCzs9xVfFS07U2UvNu&#13;
+PDKU2pegTw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f07bc016-ace2-421c-94e1-7522dc61fbd2"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>zuOlLv2G4H2llbqnyHSvM8Amj1Hcvgs3FXZDMhhaPvEVzU9nyBBLmY8IuIJsjAIJPsK6vmCQpwtV&#13;
+tPbIWGb2qA==</DigestValue></Reference></SignedInfo><SignatureValue>fVkXj3fn7G+/i8XIFL6t3VkB/wS6Jiu3Yw+L8x5uqMlWbSsUVva4C7mD+Q37Yn/uEFd9BwsCeb1U&#13;
+LnnXbJkn8YS2R40oSyS4BoOW+gYrkhut5ZSdFA4z4WBifs4HjPbEyFxdJPFo4wuqgE4SlGx+Cyq0&#13;
+qx/2VuhWtA3t3TMDa5T/EqXSHPn7LQQBqKIl9BMlKQRmbq6xCYz8gh2tvK5+Qr1v5shZ8/frri5B&#13;
++FI9fPsWK1N3ZOVbApyATrReVDwhMitBRDO2TIZMfRPPsXafyvOLPoFkPMkxQ56Br4leYw3AdyvA&#13;
++0x0s5Qx53mZpmrRKwedb2X6RhnvN0wWADh8Iw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f07bc016-ace2-421c-94e1-7522dc61fbd2" Target="#_3d8f8184-1717-40ec-b28a-0ef2653fc80e"><Timestamp>2023-05-30 14:30:11</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

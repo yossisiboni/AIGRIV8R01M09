@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_uRFD4PO1Ee2aT-GASnopIg">
+    <contextParameter comment="" name="ri_aig_ri_LOGIN" prompt="ri_aig_ri_LOGIN?" promptNeeded="false" type="id_String" value="" xmi:id="_uRFD4fO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_PASSWORD" prompt="ri_aig_ri_PASSWORD?" promptNeeded="false" type="id_Password" value="" xmi:id="_uRFD4vO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_SERVER" prompt="ri_aig_ri_SERVER?" promptNeeded="false" type="id_String" value="" xmi:id="_uRFD4_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_PORT" prompt="ri_aig_ri_PORT?" promptNeeded="false" type="id_String" value="1433" xmi:id="_uRFD5PO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_DB" prompt="ri_aig_ri_DB?" promptNeeded="false" type="id_String" value="" xmi:id="_uRFD5fO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_SCHEMA" prompt="ri_aig_ri_SCHEMA?" promptNeeded="false" type="id_String" value="" xmi:id="_uRFD5vO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_ADD_PARAM" prompt="ri_aig_ri_ADD_PARAM?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uRFD5_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_table_name" prompt="con_table_name?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uRFD6PO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_number_stg" prompt="con_row_number_stg?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFD6fO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_number_riappldb" prompt="con_row_number_riappldb?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFD6vO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_error_component" prompt="con_error_component?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uRFD6_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_error_message" prompt="con_error_message?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uRFD7PO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_limit_count" prompt="con_limit_count?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFD7fO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="Talend_Output_Files" prompt="Talend_Output_Files?" promptNeeded="false" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/RI_SHARE/RI/OUTPUTFILES/TXT/&quot;" xmi:id="_uRFD7vO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="Zip_File_Name" prompt="Zip_File_Name?" promptNeeded="false" type="id_String" value="&quot;FXRATE_&quot;" xmi:id="_uRFD7_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="Zip_File_Working_Location" prompt="Zip_File_Working_Location?" promptNeeded="false" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/RI_SHARE/RI/WORKING/TXT/&quot;" xmi:id="_uRFD8PO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_CSV_line_number" prompt="con_CSV_line_number?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFD8fO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_Table_lines_number" prompt="con_Table_lines_number?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFD8vO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="propertyFileLocation" prompt="propertyFileLocation?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uRFD8_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="propertyFileName" prompt="propertyFileName?" promptNeeded="false" type="id_String" value="&quot;RI.properties&quot;" xmi:id="_uRFD9PO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="loadingLocation" prompt="loadingLocation?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uRFD9fO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="loadingName" prompt="loadingName?" promptNeeded="false" type="id_String" value="&quot;loadingProperties.properties&quot;" xmi:id="_uRFD9vO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="AttachControlFileLocation" prompt="AttachControlFileLocation?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uRFD9_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="AttachControlFileName" prompt="AttachControlFileName?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uRFD-PO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_file_name" prompt="con_file_name?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uRFD-fO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="instance" prompt="instance?" promptNeeded="false" type="id_String" value="&quot;ATTACHMENT&quot;" xmi:id="_uRFD-vO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_timestamp" prompt="con_timestamp?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uRFD-_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_macseqnum" prompt="con_macseqnum?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFD_PO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_grp_set_exec_id" prompt="con_grp_set_exec_id?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFD_fO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="outputLocation" prompt="outputLocation?" promptNeeded="false" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/RI_SHARE/RI/OUTPUTFILES/TXT/&quot;" xmi:id="_uRFD_vO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="MATCH_IND" prompt="MATCH_IND?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFD__O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="archiveLocation" prompt="archiveLocation?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uRFEAPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_uniqe_ced" prompt="con_row_uniqe_ced?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEAfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_tty" prompt="con_row_tty?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEAvO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_aigintrx" prompt="con_row_aigintrx?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEA_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_ritrncalc" prompt="con_row_ritrncalc?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEBPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_ridateint" prompt="con_row_ridateint?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEBfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_risrcintrf" prompt="con_row_risrcintrf?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEBvO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_risattrint" prompt="con_row_risattrint?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEB_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_dup" prompt="con_row_dup?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFECPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_gross" prompt="con_row_gross?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFECfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_intl" prompt="con_row_intl?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFECvO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_notype" prompt="con_row_notype?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEC_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_tty6" prompt="con_row_tty6?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEDPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_tty13" prompt="con_row_tty13?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEDfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_tty15" prompt="con_row_tty15?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEDvO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_section_ref" prompt="con_row_section_ref?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFED_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_AI" prompt="con_row_AI?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEEPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_tty6NICO" prompt="con_row_tty6NICO?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEEfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_tty13NICO" prompt="con_row_tty13NICO?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEEvO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_tty15NICO" prompt="con_row_tty15NICO?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEE_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_CALC_DATE" prompt="con_CALC_DATE?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uRFEFPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_macseqnum2" prompt="con_macseqnum2?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEFfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="instance2" prompt="instance2?" promptNeeded="false" type="id_String" value="&quot;FXRATE&quot;" xmi:id="_uRFEFvO1Ee2aT-GASnopIg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_uRFEF_O1Ee2aT-GASnopIg">
+    <contextParameter comment="" name="ri_aig_ri_LOGIN" prompt="ri_aig_ri_LOGIN?" promptNeeded="false" type="id_String" value="aig-migration-dev" xmi:id="_uRFEGPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_PASSWORD" prompt="ri_aig_ri_PASSWORD?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:1fwW19uW8gym6LV2NTxh4BazIUTecn9Ve/8Ju6toXKX+cfY2nA==" xmi:id="_uRFEGfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_SERVER" prompt="ri_aig_ri_SERVER?" promptNeeded="false" type="id_String" value="10.96.10.20" xmi:id="_uRFEGvO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_PORT" prompt="ri_aig_ri_PORT?" promptNeeded="false" type="id_String" value="1433" xmi:id="_uRFEG_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_DB" prompt="ri_aig_ri_DB?" promptNeeded="false" type="id_String" value="YT" xmi:id="_uRFEHPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_SCHEMA" prompt="ri_aig_ri_SCHEMA?" promptNeeded="false" type="id_String" value="RI" xmi:id="_uRFEHfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="ri_aig_ri_ADD_PARAM" prompt="ri_aig_ri_ADD_PARAM?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uRFEHvO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_table_name" prompt="con_table_name?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uRFEH_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_number_stg" prompt="con_row_number_stg?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEIPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_number_riappldb" prompt="con_row_number_riappldb?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEIfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_error_component" prompt="con_error_component?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uRFEIvO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_error_message" prompt="con_error_message?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uRFEI_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_limit_count" prompt="con_limit_count?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEJPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="Talend_Output_Files" prompt="Talend_Output_Files?" promptNeeded="false" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/RI_SHARE/RI/OUTPUTFILES/TXT/&quot;" xmi:id="_uRFEJfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="Zip_File_Name" prompt="Zip_File_Name?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uRFEJvO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="Zip_File_Working_Location" prompt="Zip_File_Working_Location?" promptNeeded="false" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/RI_SHARE/RI/WORKING/TXT/&quot;" xmi:id="_uRFEJ_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_CSV_line_number" prompt="con_CSV_line_number?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEKPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_Table_lines_number" prompt="con_Table_lines_number?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEKfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="propertyFileLocation" prompt="propertyFileLocation?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uRFEKvO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="propertyFileName" prompt="propertyFileName?" promptNeeded="false" type="id_String" value="&quot;RI.properties&quot;" xmi:id="_uRFEK_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="loadingLocation" prompt="loadingLocation?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uRFELPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="loadingName" prompt="loadingName?" promptNeeded="false" type="id_String" value="&quot;loadingProperties.properties&quot;" xmi:id="_uRFELfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="AttachControlFileLocation" prompt="AttachControlFileLocation?" promptNeeded="false" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/RI_SHARE/RI/INPUTFILES/TXT/FIRST_ENV/&quot;" xmi:id="_uRFELvO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="AttachControlFileName" prompt="AttachControlFileName?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uRFEL_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_file_name" prompt="con_file_name?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uRFEMPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="instance" prompt="instance?" promptNeeded="false" type="id_String" value="&quot;INBOUND&quot;" xmi:id="_uRFEMfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_timestamp" prompt="con_timestamp?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uRFEMvO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_macseqnum" prompt="con_macseqnum?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEM_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_grp_set_exec_id" prompt="con_grp_set_exec_id?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFENPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="outputLocation" prompt="outputLocation?" promptNeeded="false" type="id_String" value="&quot;C:/Users/mark.shachar/workspace/RI_SHARE/RI/OUTPUTFILES/TXT/&quot;" xmi:id="_uRFENfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="MATCH_IND" prompt="MATCH_IND?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFENvO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="archiveLocation" prompt="archiveLocation?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uRFEN_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_uniqe_ced" prompt="con_row_uniqe_ced?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEOPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_tty" prompt="con_row_tty?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEOfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_aigintrx" prompt="con_row_aigintrx?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEOvO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_ritrncalc" prompt="con_row_ritrncalc?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEO_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_ridateint" prompt="con_row_ridateint?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEPPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_risrcintrf" prompt="con_row_risrcintrf?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEPfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_risattrint" prompt="con_row_risattrint?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEPvO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_dup" prompt="con_row_dup?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEP_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_gross" prompt="con_row_gross?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEQPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_intl" prompt="con_row_intl?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEQfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_notype" prompt="con_row_notype?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEQvO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_tty6" prompt="con_row_tty6?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFEQ_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_tty13" prompt="con_row_tty13?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFERPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_tty15" prompt="con_row_tty15?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFERfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_section_ref" prompt="con_row_section_ref?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFERvO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_AI" prompt="con_row_AI?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFER_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_tty6NICO" prompt="con_row_tty6NICO?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFESPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_tty13NICO" prompt="con_row_tty13NICO?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFESfO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_row_tty15NICO" prompt="con_row_tty15NICO?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFESvO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_CALC_DATE" prompt="con_CALC_DATE?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_uRFES_O1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="con_macseqnum2" prompt="con_macseqnum2?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_uRFETPO1Ee2aT-GASnopIg"/>
+    <contextParameter comment="" name="instance2" prompt="instance2?" promptNeeded="false" type="id_String" value="" xmi:id="_uRFETfO1Ee2aT-GASnopIg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_3423636e-e346-4425-bb64-45532d328fa8"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>j21v70Etb6ptSqP/i7nxZNd0G32MtuY+GByVtSt9VxtgFODTHzLeqnVI9Uj4+TnqyyS7k+gAdck+&#13;
+FDCHmcgRMQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ddc52417-b49d-4a24-8729-f8f582e0c271"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Td3AvWRJoZWdy2JzSVj+7ke8fk5uxB+D9b+/zPPc/zFWyY4JplExVvrKDi/8mVgYG+wwUX+21yv4&#13;
+ZSmyq1Js0g==</DigestValue></Reference></SignedInfo><SignatureValue>RQK2a9IUw07yqwmzqnHXKHeuVgYTBxKHYNfgNwZYbo//UPOuIHw0nx2hCO7ZGtG4f5d91gELzKjs&#13;
+6m/ON4BxlJrHY5/VoIRIrDNFH348oE553KAPAvOCO3nI9SktPFvBvZIGa7Xzy2glcBilRafF46Xv&#13;
+i1jMgy2oxEKv09mUmwsCOs8mRu8PopiVszFEEtOm2qm0YQ/B48/Mz4c3VIifNVXFyShAc5dCrnL6&#13;
+Met8YKCzHwBHovmHJoI9fxav3tsdxuQvtNYnPTaZaLw4c3yKRbiIkUGaGpJuKk3zdLiUS+pq5BvO&#13;
+BdKZSHua8iunMdRr5nJUMN+szqbB0LEu0DJOFg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ddc52417-b49d-4a24-8729-f8f582e0c271" Target="#_3423636e-e346-4425-bb64-45532d328fa8"><Timestamp>2023-05-30 14:27:39</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

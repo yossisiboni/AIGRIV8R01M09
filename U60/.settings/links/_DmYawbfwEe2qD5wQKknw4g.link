@@ -1,0 +1,24 @@
+{
+  "itemId" : "_DmYawbfwEe2qD5wQKknw4g",
+  "contextList" : [ {
+    "contextName" : "Dev",
+    "repoId" : "_pZuqwM2xEeuDgPzndBxSpQ",
+    "parameterList" : [ {
+      "id" : "_uUrxk_O1Ee2aT-GASnopIg",
+      "name" : "Talend_Output_Files"
+    }, {
+      "id" : "_uUrxi_O1Ee2aT-GASnopIg",
+      "name" : "Zip_File_BackUp_Location"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_pZuqwM2xEeuDgPzndBxSpQ",
+    "parameterList" : [ {
+      "id" : "_uUrxt_O1Ee2aT-GASnopIg",
+      "name" : "Talend_Output_Files"
+    }, {
+      "id" : "_uUrxr_O1Ee2aT-GASnopIg",
+      "name" : "Zip_File_BackUp_Location"
+    } ]
+  } ]
+}

@@ -1,0 +1,108 @@
+{
+  "itemId" : "_DmYaw7fwEe2qD5wQKknw4g",
+  "contextList" : [ {
+    "contextName" : "Dev",
+    "repoId" : "_pZuqwM2xEeuDgPzndBxSpQ",
+    "parameterList" : [ {
+      "id" : "_uUrxlPO1Ee2aT-GASnopIg",
+      "name" : "con_CSV_line_number"
+    }, {
+      "id" : "_uUrxjfO1Ee2aT-GASnopIg",
+      "name" : "con_file_name"
+    }, {
+      "id" : "_uUrxkvO1Ee2aT-GASnopIg",
+      "name" : "con_limit_count"
+    }, {
+      "id" : "_uUrxoPO1Ee2aT-GASnopIg",
+      "name" : "con_party_timestamp"
+    }, {
+      "id" : "_uUrxlfO1Ee2aT-GASnopIg",
+      "name" : "con_Table_lines_number"
+    }, {
+      "id" : "_uUrxjPO1Ee2aT-GASnopIg",
+      "name" : "con_table_name"
+    }, {
+      "id" : "_uUrxm_O1Ee2aT-GASnopIg",
+      "name" : "instance"
+    }, {
+      "id" : "_uUrxmPO1Ee2aT-GASnopIg",
+      "name" : "loadingName"
+    }, {
+      "id" : "_uUrxnvO1Ee2aT-GASnopIg",
+      "name" : "match_ind"
+    }, {
+      "id" : "_uUrxmfO1Ee2aT-GASnopIg",
+      "name" : "partyControlFileLocation"
+    }, {
+      "id" : "_uUrxmvO1Ee2aT-GASnopIg",
+      "name" : "partyControlFileName"
+    }, {
+      "id" : "_uUrxl_O1Ee2aT-GASnopIg",
+      "name" : "propertyFileName"
+    }, {
+      "id" : "_uUrxk_O1Ee2aT-GASnopIg",
+      "name" : "Talend_Output_Files"
+    }, {
+      "id" : "_uUrxi_O1Ee2aT-GASnopIg",
+      "name" : "Zip_File_BackUp_Location"
+    }, {
+      "id" : "_uUrxiPO1Ee2aT-GASnopIg",
+      "name" : "Zip_File_Location"
+    }, {
+      "id" : "_uUrxifO1Ee2aT-GASnopIg",
+      "name" : "Zip_File_Name"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_pZuqwM2xEeuDgPzndBxSpQ",
+    "parameterList" : [ {
+      "id" : "_uUrxuPO1Ee2aT-GASnopIg",
+      "name" : "con_CSV_line_number"
+    }, {
+      "id" : "_uUrxsfO1Ee2aT-GASnopIg",
+      "name" : "con_file_name"
+    }, {
+      "id" : "_uUrxtvO1Ee2aT-GASnopIg",
+      "name" : "con_limit_count"
+    }, {
+      "id" : "_uUrxxPO1Ee2aT-GASnopIg",
+      "name" : "con_party_timestamp"
+    }, {
+      "id" : "_uUrxufO1Ee2aT-GASnopIg",
+      "name" : "con_Table_lines_number"
+    }, {
+      "id" : "_uUrxsPO1Ee2aT-GASnopIg",
+      "name" : "con_table_name"
+    }, {
+      "id" : "_uUrxv_O1Ee2aT-GASnopIg",
+      "name" : "instance"
+    }, {
+      "id" : "_uUrxvPO1Ee2aT-GASnopIg",
+      "name" : "loadingName"
+    }, {
+      "id" : "_uUrxwvO1Ee2aT-GASnopIg",
+      "name" : "match_ind"
+    }, {
+      "id" : "_uUrxvfO1Ee2aT-GASnopIg",
+      "name" : "partyControlFileLocation"
+    }, {
+      "id" : "_uUrxvvO1Ee2aT-GASnopIg",
+      "name" : "partyControlFileName"
+    }, {
+      "id" : "_uUrxu_O1Ee2aT-GASnopIg",
+      "name" : "propertyFileName"
+    }, {
+      "id" : "_uUrxt_O1Ee2aT-GASnopIg",
+      "name" : "Talend_Output_Files"
+    }, {
+      "id" : "_uUrxr_O1Ee2aT-GASnopIg",
+      "name" : "Zip_File_BackUp_Location"
+    }, {
+      "id" : "_uUrxrPO1Ee2aT-GASnopIg",
+      "name" : "Zip_File_Location"
+    }, {
+      "id" : "_uUrxrfO1Ee2aT-GASnopIg",
+      "name" : "Zip_File_Name"
+    } ]
+  } ]
+}
