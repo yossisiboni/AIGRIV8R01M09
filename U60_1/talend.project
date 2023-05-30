@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_cDVtgf7sEe2TRtvkZJYMHQ" label="U60_1" description="" language="java" technicalLabel="U60_1" author="_cDVtgv7sEe2TRtvkZJYMHQ" productVersion="Talend Data Management Platform-8.0.1.20230515_1349-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/yossisiboni/AIGRIV8R01M09&quot;,&quot;settings&quot;:&quot;100&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" bigData="false">
+  <TalendProperties:Project xmi:id="_cDVtgf7sEe2TRtvkZJYMHQ" label="U60_1" description="" language="java" technicalLabel="U60_1" author="_cDVtgv7sEe2TRtvkZJYMHQ" productVersion="Talend Data Management Platform-8.0.1.20230515_1349-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/yossisiboni/AIGRIV8R01M09&quot;,&quot;settings&quot;:&quot;100&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" itemsRelationVersion="1.3" bigData="false">
     <migrationTask xmi:id="_cEwp0P7sEe2TRtvkZJYMHQ" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_cDVtgv7sEe2TRtvkZJYMHQ" login="yossi.siboni@sapiens.com" firstName="Yossi" lastName="S" type="DQ" additionnalData="{}"/>
